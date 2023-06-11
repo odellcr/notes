@@ -1,0 +1,17 @@
+gdb notes:
+b <filename>:<ln> sets a breakpoint
+c or run will run to the next breakpoint
+start will set a breakpoint at beginning of main
+set follow-fork-mode <child, parent> will allow for debugging the desired process after the fork() is done
+
+tmux:
+'tmux' starts the program
+ctrl + b is the prefix
+cb , % will split vertically
+cb, " will split horizontally
+cb, alt + arrow keys can be used to resize
+cb, o switches to other session
+cb, arrow keys can be used to directionally switch
+
+unit framework calls a child process for each test which is kind of annoying for debugging.
+need to figure out what the barebones is for this so I don't have to copy paste each time.
