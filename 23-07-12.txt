@@ -1,0 +1,23 @@
+Notes on leet_27:
+- The biggest issue I ran into again is edge cases
+- When trying to solve them rather than step back and ask what I was specifically trying to solve I just started trying to spam the debugger
+    - the correct thing would have been to:
+        - stop
+        - step back
+        - write the problem
+        - come up with a solution
+        - review
+        - implement
+    - the reason these steps are important is that when you just spam the debugger you don't actually understand what the solution is you are just trying to make
+    it "work"
+    - most of the time you end up spending the same amount of time due to banging your head against the wall
+- be more mythodical
+- it might have been more benificial to actually write the function before testing it with the unit tests
+    - the reason I say this is because I wasted a bunch of time trying to figure out how to debug a second child process. It may also be easier to just run 1 test
+    and use loops rather then multiple tests simply for debugging purposes. Again though it may be better to be forced to stop and think.
+        - we aren't trying to optimize for time yet but for thought and understanding
+
+Notes on gdbgui:
+- it works but itsn't an optimal work flow
+- the primary things I want is to see variables, to see memory ranges, and to see a full source file as you are debugging
+- 
