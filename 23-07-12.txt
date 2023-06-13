@@ -20,4 +20,9 @@ Notes on leet_27:
 Notes on gdbgui:
 - it works but itsn't an optimal work flow
 - the primary things I want is to see variables, to see memory ranges, and to see a full source file as you are debugging
-- 
+
+Night notes:
+- vim has built in debugger support using Termdebug
+    - this opens two more windows one to print what the program does and another to interact with gdb
+    - you can execute commands from within vim although I don't love how it works so the workflow is still not there
+    - using watch in gdb is super useful, but I haven't lookedup up how to clear it yet.
